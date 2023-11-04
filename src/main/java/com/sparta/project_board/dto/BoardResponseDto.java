@@ -3,12 +3,11 @@ package com.sparta.project_board.dto;
 import com.sparta.project_board.entity.Board;
 import lombok.Getter;
 
-import java.security.PublicKey;
 import java.time.LocalDateTime;
 
 @Getter
 public class BoardResponseDto {
-    private long bNum;
+    private Long bNum;
     private String title;
     private String userName;
     private String contents;

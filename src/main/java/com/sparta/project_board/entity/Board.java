@@ -18,11 +18,11 @@ public class Board extends Timestamped {
     private Long bNum;
     @Column(name = "title", nullable = false)
     private String title;
-    @Column(name = "userName", nullable = false)
+    @Column(name = "userName", nullable = false, length = 20)
     private String userName;
     @Column(name = "contents", nullable = false, length = 500)
     private String contents;
-    @Column(name = "pw", nullable = false)
+    @Column(name = "pw", nullable = false, length = 20)
     private String pw;
 
     // 게시글 작성
