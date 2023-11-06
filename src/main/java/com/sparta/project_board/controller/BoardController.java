@@ -18,7 +18,7 @@ public class BoardController {
 
     public BoardController(BoardService boardService){this.boardService = boardService;}
 
-    // 게시글 작성 컨트롤러
+    // 게시글 작성
     @PostMapping("/boards")
     public ResponseEntity<?> createBoard(@RequestBody BoardRequestDto requestDto) {
         try{
@@ -26,7 +26,7 @@ public class BoardController {
         }
         catch (Exception e)
         {
-            return new ResponseEntity<>("잘못된 양식입니다.",HttpStatus.UNSUPPORTED_MEDIA_TYPE);
+            return new ResponseEntity<>("잘못된 양식입니다.",HttpStatus.BAD_REQUEST);
         }
     }
 

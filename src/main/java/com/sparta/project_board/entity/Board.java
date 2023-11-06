@@ -20,7 +20,7 @@ public class Board extends Timestamped {
     private String title;
     @Column(name = "userName", nullable = false, length = 20)
     private String userName;
-    @Column(name = "contents", nullable = false, length = 500)
+    @Column(name = "contents", length = 500)
     private String contents;
     @Column(name = "pw", nullable = false, length = 20)
     private String pw;
