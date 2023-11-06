@@ -1,5 +1,18 @@
 # Board Project
-## 프로젝트 요구사항
+
+### 목차
+
+[1. 프로젝트 요구사항](#1-프로젝트-요구사항)
+
+[2. Board API](#2-board-api)
+
+[3. UML](#3-uml)
+
+[4. ERD](#4-erd)
+
+
+
+## 1. 프로젝트 요구사항
 
 ### 게시글 작성 기능
 제목, 작성자명, 비밀번호, 작성 내용, 작성일을 저장할 수 있습니다.<br/>
@@ -31,11 +44,11 @@
 ### 추가 요구사항
 선택한 게시글 수정 및 삭제 요청 시 비밀번호가 일치하지 않을 경우 API 요청 실패(예외상황)에 대해 판단할 수 있는 Status Code, Error 메시지등의 정보를 반환합니다.
 
-## Board API
+## 2. Board API
 [[https://documenter.getpostman.com/view/30858040/2s9YXfaNrc](https://documenter.getpostman.com/view/30858040/2s9YXfaNrc)](https://documenter.getpostman.com/view/30858040/2s9YXfaNrc)https://documenter.getpostman.com/view/30858040/2s9YXfaNrc
 
-## UML
+## 3. UML
 ![UML.jpg](img%2FUML.jpg)
 
-## ERD
+## 4. ERD
 ![ERD.png](img%2FERD.png)
