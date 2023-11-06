@@ -45,8 +45,7 @@
 선택한 게시글 수정 및 삭제 요청 시 비밀번호가 일치하지 않을 경우 API 요청 실패(예외상황)에 대해 판단할 수 있는 Status Code, Error 메시지등의 정보를 반환합니다.
 
 ## 2. Board API
-[[https://documenter.getpostman.com/view/30858040/2s9YXfaNrc](https://documenter.getpostman.com/view/30858040/2s9YXfaNrc)](https://documenter.getpostman.com/view/30858040/2s9YXfaNrc)https://documenter.getpostman.com/view/30858040/2s9YXfaNrc
-
+https://documenter.getpostman.com/view/30858040/2s9YXfaNrc
 ## 3. UML
 ![UML.jpg](img%2FUML.jpg)
 
