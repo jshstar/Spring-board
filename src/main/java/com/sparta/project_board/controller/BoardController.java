@@ -64,7 +64,7 @@ public class BoardController {
     public ResponseEntity<?> deleteBoard(@PathVariable Long bNum, @PathVariable String pw)
     {
         return boardService.pwCheck(bNum, pw) ?
-                new ResponseEntity<>("작성하신 "+ boardService.deleteBoard(bNum) + "글이 정상적으로 삭제됐습니다.", HttpStatus.OK):
+                new ResponseEntity<>("작성하신 "+ boardService.deleteBoard(bNum) + " 번째 게시글이 정상적으로 삭제됐습니다.", HttpStatus.OK):
                 new ResponseEntity<>("비밀번호가 틀렸습니다.", HttpStatus.UNAUTHORIZED);
     }
 
